@@ -1,0 +1,96 @@
+/* common css link */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.orange-tag {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
+
+}
+
+/* header related styles */
+
+header {
+    background-color: aquamarine;
+    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+}
+
+.banner {
+    padding: 30 30 30 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner_content{
+    max-width: 500px;
+}
+.banner .profile_pic {
+    width: 500px;
+}
+
+.banner_gretting {
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 0;
+}
+
+.banner_text {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner_description{
+    color: var(--Dark-03, #757575);
+/* font-size: 18px;
+font-weight: 400; */
+}
+
+/*main section style */
+
