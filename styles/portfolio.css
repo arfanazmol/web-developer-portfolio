@@ -1,4 +1,8 @@
-/* common css link */
+/*============================ common css link=================== */
+*{
+    /* margin: 0;
+    padding: 0; */
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -17,7 +21,25 @@ body {
     padding: 15px 35px;
 }
 
-/* nav related styles */
+
+.section_title{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin-top: 130px;
+margin-bottom: 100px;
+
+}
+.section_description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+/*================================ nav related styles ===================================== */
 
 nav {
     display: flex;
@@ -27,7 +49,7 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -48,19 +70,20 @@ nav a {
 
 }
 
-/* header related styles */
+/*========================================= header related styles ========================================*/
 
 header {
-    background-color: aquamarine;
-    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-color: #FFF8F3;
+    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    
 
 
 }
 
 .banner {
-    padding: 30 30 30 150px;
+    padding:0 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,9 +91,11 @@ header {
 }
 .banner_content{
     max-width: 500px;
+    
 }
 .banner .profile_pic {
-    width: 500px;
+    width: 400px;
+    /* padding-left: 300px; */
 }
 
 .banner_gretting {
@@ -87,10 +112,114 @@ header {
 }
 
 .banner_description{
-    color: var(--Dark-03, #757575);
+    color: #757575;
 /* font-size: 18px;
 font-weight: 400; */
 }
 
-/*main section style */
+/*============================main section style ================================= */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
 
+
+/*========================== about section style================================ */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px 0;
+
+}
+
+.about_info_containr{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about_info{
+    text-align: center;
+}
+#what_i_do_discription{
+    padding: 30px 150px;
+    width: 900px;
+}
+
+.skill_container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ 
+}
+.skill_description{
+    color: #757575;
+}
+/*========================resume section styles=========================*/
+
+.resume_column_title{
+    font-size: 30px;
+font-weight: 700;
+
+}
+.resume_item_title{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume_item_institute{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume_item_description{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+width: 500px;
+}
+.resume_container{
+    display: flex;
+    gap: 71px;
+}
+.download_cv{
+    text-align: center;
+    margin-top: 69px;
+
+}
+/*=============================resume section style part end =================*/
+/*=============================footer style part start ============================*/
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 50px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer_column{
+ width: 50%;
+}
+.socila_link a{
+    margin-right: 25px;
+}
+.contact1 input[type="text"], .contact1 input[type="email"],
+ textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background: #FFF;
+border: 0;
+width: 100%;
+}
+
+
+/*=============================footer style part end ============================*/
